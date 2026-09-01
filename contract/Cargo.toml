@@ -1,0 +1,8 @@
+[workspace]
+members = ["programs/buyback", "tests/mock-venue"]
+default-members = ["programs/buyback"]
+resolver = "2"
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true

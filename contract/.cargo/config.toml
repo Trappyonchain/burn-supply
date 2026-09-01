@@ -1,0 +1,5 @@
+# Public identities for reproducible builds of this reserved deployment.
+# Signing material must never be placed in the source repository or build image.
+[env]
+BURN_AUTHORITY_ADDRESS = "3Ya1XBrSiJpRrWqvo8WxbQChfZp1wHxVn5SkmEY4DdM6"
+BURN_MINT_ADDRESS = "hoWdqhtpuiQuXhw48HTPVJUSnThsbf84NhWQzz4pump"

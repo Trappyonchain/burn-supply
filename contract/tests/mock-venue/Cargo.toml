@@ -1,0 +1,14 @@
+[package]
+name = "mock-venue"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "mock_venue"
+crate-type = ["cdylib"]
+
+[dependencies]
+pinocchio = { version = "=0.11.2", default-features = false, features = ["cpi", "account-resize"] }
+pinocchio-system = "=0.6.1"
+pinocchio-token-2022 = { version = "=0.3.1", default-features = false }
